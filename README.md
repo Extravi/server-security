@@ -20,7 +20,7 @@ useradd -G sudo -m example -s /bin/bash
 passwd example
 ```
 
-In a new terminal, paste the public ssh key; you will be prompted for a password:
+In a new terminal, copy the public ssh key; you will be prompted for a password:
 
 ```bash
 ssh-copy-id example@127.0.0.1
