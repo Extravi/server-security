@@ -35,7 +35,7 @@ chmod +x secure-server.sh
 ```
 
 
-Once the script is finished, navigate to /.ssh/config and add the following lines:
+Once the script is finished, navigate to ~/.ssh/config and add the following lines:
 
 ```bash
 Host example
