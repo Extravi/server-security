@@ -7,26 +7,26 @@ apt update && apt upgrade -y
 reboot
 ```
 
-Install required packages
+Install required packages:
 
 ```bash
 apt install unattended-upgrades ufw libpam-google-authenticator
 ```
 
-Create non-root user then set a password
+Create non-root user then set a password:
 
 ```bash
 useradd -G sudo -m example -s /bin/bash
 passwd example
 ```
 
-In a new terminal, paste the public ssh key; you will be prompted for a password
+In a new terminal, paste the public ssh key; you will be prompted for a password:
 
 ```bash
 ssh-copy-id example@127.0.0.1
 ```
 
-Download and run the script as the newly created user
+Download and run the script as the newly created user:
 
 ```bash
 wget -O secure-server.sh https://raw.githubusercontent.com/Extravi/server-security/main/secure-server.sh
@@ -45,7 +45,7 @@ Host example
 	HostName 127.0.0.1
 ```
 
-After you've added those lines, you can ssh into your server using
+After you've added those lines, you can ssh into your server using:
 
 ```bash
 ssh example
