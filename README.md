@@ -44,3 +44,9 @@ Host example
 	IdentityFile ~/.ssh/id_rsa
 	HostName 127.0.0.1
 ```
+
+After you've added those lines, you can ssh into your server using
+
+```bash
+ssh example
+```
