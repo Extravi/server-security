@@ -26,7 +26,7 @@ In a new terminal, paste the public ssh key; you will be prompted for a password
 ssh-copy-id example@127.0.0.1
 ```
 
-Download the script and run
+Download and run the script as the newly created user
 
 ```bash
 wget -O secure-server.sh https://raw.githubusercontent.com/Extravi/server-security/main/secure-server.sh
